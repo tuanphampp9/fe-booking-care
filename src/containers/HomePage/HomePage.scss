@@ -1,0 +1,77 @@
+.root {
+  .full-width {
+    background-color: #effffa;
+  }
+  .container {
+    width: 1400px;
+    margin: auto;
+    .banner-content {
+      margin-top: 15px;
+      height: 420px;
+      border-radius: 30px;
+      width: 100%;
+    }
+    .box-search {
+      display: flex;
+      position: relative;
+      margin: 24px 0px;
+      i {
+        position: absolute;
+        top: 50%;
+        right: 5px;
+        transform: translateY(-50%);
+        font-size: 20px;
+      }
+    }
+    .service-component {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin: 30px 0px;
+      justify-content: space-between;
+      .box-service {
+        display: flex;
+        align-items: center;
+        padding: 15px 20px;
+        background-image: url("../../assets/images/bg-service.png");
+        border-radius: 20px;
+        width: 567px;
+        cursor: pointer;
+        border: 1px solid #e0e0e0;
+        .icon-service {
+          width: 56px;
+          height: 56px;
+        }
+        .title-service {
+          margin-left: 52px;
+          font-size: 24px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+  .box-container {
+    background: url("../../assets/images/bg-doctor.png");
+    .box-item {
+      max-width: 1300px;
+      margin: auto;
+    }
+  }
+  .icon-scroll {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #60c3d2;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    i {
+      font-size: 18px;
+      color: #effffa;
+    }
+  }
+}

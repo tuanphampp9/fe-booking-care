@@ -1,0 +1,37 @@
+.box-parent {
+  .title-about {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .section-about {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    .video-left {
+      border-radius: 15px;
+      width: fit-content;
+      overflow: hidden;
+    }
+    .link-social {
+      width: 588px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      a {
+        margin: 0px 10px;
+        padding: 10px 25px;
+        border-radius: 10px;
+        display: block;
+        height: fit-content;
+        background-color: #fff;
+        .img-social {
+          width: 164px;
+          height: 39px;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+}
